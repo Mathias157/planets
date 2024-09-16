@@ -15,7 +15,7 @@ This is part of https://coderefinery.github.io/reproducible-python/.
 
 ## Installation instructions
 
-(...)
+Check the [coderefinery website](https://coderefinery.github.io/reproducible-python/)
 
 
 ## Example
