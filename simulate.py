@@ -31,7 +31,7 @@ def write_data(positions, output_file):
 def force_between_planets(position1, mass1, position2, mass2):
     G = 1.0  # gravitational constant
 
-    r = position2 - position1
+    r = position2 - position1 + 5
     distance = (r[0] ** 2 + r[1] ** 2 + r[2] ** 2) ** 0.5
     force_magnitude = G * mass1 * mass2 / distance**2
     force = (r / distance) * force_magnitude
